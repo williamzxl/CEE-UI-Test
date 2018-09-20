@@ -39,10 +39,13 @@ class HomeWork1(StudyCenter, AllPage, GetTaskGroupNum):
 
 def main1():
     try:
+        print("Begin")
         home_work = HomeWork1()
+        print("Begin01")
         home_work.open()
         home_work.click_learning_center()
         sleep(5)
+        print("Begin2")
         try:
             home_work.click_learn_card_task_btn()
             sleep(5)
@@ -50,14 +53,17 @@ def main1():
         except:
             pass
         ex_x, ex_y = home_work.get_my_ex_loc()
+        print("ex_x, ex_y", ex_x, ex_y)
         sleep(10)
         while True:
             try:
                 home_work.click_learn_card_task_btn()
+                sleep(5)
                 home_work.click_back_btn()
             except:
                 pass
             sleep(5)
+            print("ex_x, ex_y", ex_x, ex_y)
             home_work.swipeUp(ex_x, ex_y, 1, 500)
             sleep(2)
             task_CN_lists = home_work.return_all_test_ele()
@@ -89,7 +95,7 @@ def main1():
                         print("Append 1")
                         times.append("1")
                         home_work.swipeUp(ex_x, ex_y, 10, 200)
-                        continue
+                        pass
                     if "词汇" in home_work.page_source() and "List" in home_work.page_source():
                         words_lists(home_work, k[1], serviceID)
                         try:
@@ -184,3 +190,7 @@ def main1():
                                 error_find(home_work, k[0], k[1], click_result)
     except:
         pass
+
+
+if __name__ == '__main__':
+    pass
