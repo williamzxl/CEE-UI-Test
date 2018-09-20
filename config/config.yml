@@ -4,10 +4,10 @@
 - desired_caps_info:
     platformName: Android
     platformVersion: '6.0.1'
-    deviceName: 33ea8e00
-    appPackage: com.langlib.ncee
-    appActivity: com.langlib.ncee.ui.main.SplashActivity
-    apk_file: 38b400794c5fd8f912a918eb9ac36162.apk
+    deviceName: xxx
+    appPackage: com.langlib.xxx
+    appActivity: com.langlib.xxx
+    apk_file: 38b40xxxx
     background_time: 5
     unicodeKeyboard: True
     resetKeyboard: True
@@ -20,12 +20,12 @@
                # ALL_NETWORK_ON = 6
 - headers:
     Platform: Android
-    appkey: CEE_AA8F55B916AB
-    appversion: '10000005'
-    AppSecret: 3DB5159C-EB1E-47FE-8584-47115EF5E443
+    appkey: CEE_xxxx
+    appversion: '1000xxxx'
+    AppSecret: 3DB5159C-EB1Exxxxx
     App: cee
-    accesstoken: 8eb87cdb-7d11-4c34-b435-d4882859466c
-    Host: appncee.langlib.com
+    accesstoken: 8xxxx
+    Host: appxxxx
     Connection: Keep-Alive
     Accept-Encoding: gzip
     User-Agent: okhttp/3.11.0
@@ -38,12 +38,12 @@
     pattern:  '%(asctime)s - %(name)s - %(levelname)s - %(message)s'
 
 - mail_cfg:
-    user: 18519893004@163.com
+    user: 185xxx4@163.com
     password: xxxxxxxxx
     smtp: smtp.163.com
     revivers:
-        - 18519893004@163.com
-        - 1053418947@qq.com
+        - 185xxxxx@163.com
+        - 105xxxx@qq.com
     subject: LangBO_CEE_API_Test_Result_0514
     content:
         - <h1>LangBO_CEE_API_Test_Result_0514</h1>
