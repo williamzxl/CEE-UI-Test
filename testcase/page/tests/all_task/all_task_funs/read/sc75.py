@@ -8,10 +8,10 @@ class HomeWork(AllInterface, StudyCenter, AllPage):
     pass
 
 
-def sc75(home_work, k0, k1, click_result):
+def sc75(home_work, headers, k0, k1, click_result):
     sc_75 = HomeWork()
     print("k[0], k[1]", k0, k1)
-    sc_answers = sc_75.get_all_sc_75_answer(k0, k1)
+    sc_answers = sc_75.get_all_sc_75_answer(headers, k0, k1)
     print("SC 75 answers", sc_answers)
     # click_result = home_work.click_one_list(home_work, g)
     sleep(10)

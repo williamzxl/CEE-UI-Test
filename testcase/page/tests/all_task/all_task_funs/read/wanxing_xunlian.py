@@ -9,13 +9,13 @@ class HomeWork(AllInterface, StudyCenter, AllPage):
     pass
 
 
-def wanxing_xunlian(home_work, k0, k1, click_result):
+def wanxing_xunlian(home_work, headers, k0, k1, click_result):
     title = home_work.get_page_title()
     if str(title) != "完型训练":
         pass
     if True:
         cloze_test = HomeWork()
-        answers = cloze_test.get_all_cloze_test_answer(k0, k1)
+        answers = cloze_test.get_all_cloze_test_answer(headers, k0, k1)
         sleep(10)
         if int(click_result) == 2:
             home_work.click_finish_button()

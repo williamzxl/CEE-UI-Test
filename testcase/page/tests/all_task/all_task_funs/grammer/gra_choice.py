@@ -7,9 +7,9 @@ class HomeWork(AllInterface, StudyCenter, AllPage):
     pass
 
 
-def gra_choice(home_work, k0, k1, click_result):
+def gra_choice(home_work, headers, k0, k1, click_result):
     gra_choice = HomeWork()
-    gra_choice_answers = gra_choice.get_all_gra_choice_answer(k0, k1)
+    gra_choice_answers = gra_choice.get_all_gra_choice_answer(headers, k0, k1)
     print("In 语法单选")
     # click_result = home_work.click_one_list(home_work, g)
     if int(click_result) == 2:

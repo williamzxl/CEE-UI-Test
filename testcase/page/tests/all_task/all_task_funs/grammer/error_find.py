@@ -8,7 +8,7 @@ class HomeWork(AllInterface, StudyCenter, AllPage):
     pass
 
 
-def error_find(home_work, k0, k1, click_result):
+def error_find(home_work, headers, k0, k1, click_result):
     # click_result = home_work.click_one_list(home_work, g)
     print(click_result)
     sleep(2)

@@ -1,19 +1,21 @@
 import requests
 import json
-from utils.config import get_headers
+# from utils.config import get_headers
 
 
 class GetAllFangxieZaojuAnswers(object):
     def __init__(self):
-        self.headers = get_headers()
-        self.url = self.headers.get('Host')
+        # self.headers = headers
+        # self.url = self.headers.get('Host')
+        self.pas = None
 
-    def get_all_fangxie_zaoju_answer(self, groupID, taskID):
+    def get_all_fangxie_zaoju_answer(self, headers, groupID, taskID):
         # http: // appncee_dev.langb.cn / sysListening / 1104 / wordDic
-        url = "http://{}/sysWriting/{}/senImitation".format(self.url, str(groupID))
+        host = headers.get('Host')
+        url = "http://{}/sysWriting/{}/senImitation".format(host, str(groupID))
         # http://192.168.1.154:55262/sysWriting/1925/senImitation
         querystring = {"groupID": "{}".format(groupID), "taskID": "{}".format(taskID)}
-        response = requests.request("GET", url, headers=self.headers, params=querystring)
+        response = requests.request("GET", url, headers=headers, params=querystring)
         answer = response.text
         # print(answer)
         json_data = json.loads(answer)

@@ -87,19 +87,22 @@ class ItemLists(BasePage):
             ele.click()
         sleep(3)
         all_info = self.page_source()
+        print(all_info)
+        print('生词表' in all_info and "下一步" not in all_info)
         if self.finish_button_ele_id in all_info:
             return 2
-        if '学习中心' in all_info:
+        elif '学习中心' in all_info:
             return 3
-        if '生词表' in all_info and "下一步" not in all_info:
+        elif '生词表' in all_info and "下一步" not in all_info:
+            print("Return 4")
             return 4
-        if '第一步:' in all_info or '生词表' in all_info:
+        elif '第一步:' in all_info or '生词表' in all_info:
             return 5
-        if '第二步' in all_info:
+        elif '第二步' in all_info:
             return 6
-        if '第三步' in all_info:
+        elif '第三步' in all_info:
             return 7
-        if '提交' in all_info:
+        elif '提交' in all_info:
             return 8
         # if "下一步" in all_info:
         #     return 9

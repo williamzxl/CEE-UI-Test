@@ -1,18 +1,20 @@
 import requests
 import json
-from utils.config import get_headers
+# from utils.config import get_headers
 
 
 class GetAllWordSpellAnswers(object):
     def __init__(self):
-        self.headers = get_headers()
-        self.url = self.headers.get('Host')
+        # self.headers = headers
+        # self.url = self.headers.get('Host')
+        self.pas = None
 
-    def get_all_word_spell_answer(self, groupID, taskID):
+    def get_all_word_spell_answer(self, headers, groupID, taskID):
         # http: // appncee_dev.langb.cn / sysListening / 1104 / wordDic
-        url = "http://{}/sysWriting/{}/wordSpell".format(self.url, str(groupID))
+        host = headers.get('Host')
+        url = "http://{}/sysWriting/{}/wordSpell".format(host, str(groupID))
         querystring = {"groupID": "{}".format(groupID), "taskID": "{}".format(taskID)}
-        response = requests.request("GET", url, headers=self.headers, params=querystring)
+        response = requests.request("GET", url, headers=headers, params=querystring)
         answer = response.text
         # print(answer)
         json_data = json.loads(answer)

@@ -2,8 +2,55 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="79a1368c-fddc-467d-b2db-66fa46c39efc" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/config/devices_cfg.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testcase/page/tests/config.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testcase/page/tests/test_ini.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config/config.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcase/common/basePage/basePage.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcase/common/basePage/basePage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcase/common/basePage/web_view.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcase/common/basePage/web_view.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcase/common/base_word_lists_result.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcase/common/base_word_lists_result.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcase/interface/grammer/gra_choice/get_all_gra_choice_answer.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcase/interface/grammer/gra_choice/get_all_gra_choice_answer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcase/interface/grammer/gra_fill/get_all_gra_choice_answer.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcase/interface/grammer/gra_fill/get_all_gra_choice_answer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcase/interface/grammer/gra_fill/get_all_gra_fill_answer.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcase/interface/grammer/gra_fill/get_all_gra_fill_answer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcase/interface/reading/cloze_test/get_all_cloze_test_answer.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcase/interface/reading/cloze_test/get_all_cloze_test_answer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcase/interface/reading/section_train/get_all_section_train.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcase/interface/reading/section_train/get_all_section_train.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcase/interface/reading/sen_analysis/get_all_sen_analysis_answer.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcase/interface/reading/sen_analysis/get_all_sen_analysis_answer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcase/interface/reading/sen_cloze75/get_all_sc_75_answer.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcase/interface/reading/sen_cloze75/get_all_sc_75_answer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcase/interface/study_center/get_study_center_serverID.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcase/interface/study_center/get_study_center_serverID.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcase/interface/sysListening/long_conv/get_long_conv_all_answer.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcase/interface/sysListening/long_conv/get_long_conv_all_answer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcase/interface/sysListening/sen_fill/get_sen_fill_all_answer.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcase/interface/sysListening/sen_fill/get_sen_fill_all_answer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcase/interface/sysListening/short_conv/get_short_conv_all_answer.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcase/interface/sysListening/short_conv/get_short_conv_all_answer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcase/interface/sysListening/word_dict/get_word_dict_all_answer.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcase/interface/sysListening/word_dict/get_word_dict_all_answer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcase/interface/sysListening/word_trans/get_word_trans_all_answer.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcase/interface/sysListening/word_trans/get_word_trans_all_answer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcase/interface/words_lists/ci_hui/get_all_words_lists.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcase/interface/words_lists/ci_hui/get_all_words_lists.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcase/interface/words_lists/ci_hui/put_all_words_lists.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcase/interface/words_lists/ci_hui/put_all_words_lists.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcase/interface/writing/fangxie_zaoju/get_fangxie_zaoju_all_answer.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcase/interface/writing/fangxie_zaoju/get_fangxie_zaoju_all_answer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcase/interface/writing/qianci_zaoju/get_all_qianci_zaoju_answer.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcase/interface/writing/qianci_zaoju/get_all_qianci_zaoju_answer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcase/interface/writing/word_spell/get_word_spell_all_answer.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcase/interface/writing/word_spell/get_word_spell_all_answer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcase/interface/writing/zhenti_xiezuo/get_zhenti_xiezuo_all_answer.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcase/interface/writing/zhenti_xiezuo/get_zhenti_xiezuo_all_answer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcase/page/home_page/home_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcase/page/home_page/home_page.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/testcase/page/tests/all_task/all_task_funcs.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcase/page/tests/all_task/all_task_funcs.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcase/page/tests/all_task/all_task_funs/ci_hui/words_lists.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcase/page/tests/all_task/all_task_funs/ci_hui/words_lists.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcase/page/tests/all_task/all_task_funs/grammer/error_find.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcase/page/tests/all_task/all_task_funs/grammer/error_find.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcase/page/tests/all_task/all_task_funs/grammer/gra_choice.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcase/page/tests/all_task/all_task_funs/grammer/gra_choice.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcase/page/tests/all_task/all_task_funs/grammer/gra_fill.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcase/page/tests/all_task/all_task_funs/grammer/gra_fill.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcase/page/tests/all_task/all_task_funs/listen/long_conv.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcase/page/tests/all_task/all_task_funs/listen/long_conv.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcase/page/tests/all_task/all_task_funs/listen/sen_fill.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcase/page/tests/all_task/all_task_funs/listen/sen_fill.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcase/page/tests/all_task/all_task_funs/listen/short_conv.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcase/page/tests/all_task/all_task_funs/listen/short_conv.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcase/page/tests/all_task/all_task_funs/listen/word_listening.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcase/page/tests/all_task/all_task_funs/listen/word_listening.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcase/page/tests/all_task/all_task_funs/listen/words_trans.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcase/page/tests/all_task/all_task_funs/listen/words_trans.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcase/page/tests/all_task/all_task_funs/read/sc75.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcase/page/tests/all_task/all_task_funs/read/sc75.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcase/page/tests/all_task/all_task_funs/read/sec_train.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcase/page/tests/all_task/all_task_funs/read/sec_train.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcase/page/tests/all_task/all_task_funs/read/sen_ana_fun.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcase/page/tests/all_task/all_task_funs/read/sen_ana_fun.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcase/page/tests/all_task/all_task_funs/read/wanxing_xunlian.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcase/page/tests/all_task/all_task_funs/read/wanxing_xunlian.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcase/page/tests/all_task/all_task_funs/read/wenzhang_xunlian.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcase/page/tests/all_task/all_task_funs/read/wenzhang_xunlian.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcase/page/tests/all_task/all_task_funs/write/fangxiezaoju.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcase/page/tests/all_task/all_task_funs/write/fangxiezaoju.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcase/page/tests/all_task/all_task_funs/write/qianci_zaoju.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcase/page/tests/all_task/all_task_funs/write/qianci_zaoju.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcase/page/tests/all_task/all_task_funs/write/word_spell.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcase/page/tests/all_task/all_task_funs/write/word_spell.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcase/page/tests/all_task/all_task_funs/write/zhenti_xiezuo.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcase/page/tests/all_task/all_task_funs/write/zhenti_xiezuo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcase/page/tests/learn_center.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcase/page/tests/learn_center.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/config.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -22,6 +69,7 @@
     <SUITE FILE_PATH="coverage/Langbo_APP_UI_Test$postman_answer_lists__1_.coverage" NAME="postman_answer_lists (1) Coverage Results" MODIFIED="1532328579331" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase/interface/grammer/gra_fill" />
     <SUITE FILE_PATH="coverage/Langbo_APP_UI_Test$answer.coverage" NAME="answer Coverage Results" MODIFIED="1531379455694" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase/interface/sysListening" />
     <SUITE FILE_PATH="coverage/Langbo_APP_UI_Test$test__1_.coverage" NAME="test (1) Coverage Results" MODIFIED="1532398688057" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase/interface/grammer/gra_error_find" />
+    <SUITE FILE_PATH="coverage/Langbo_APP_UI_Test$put_all_words_lists.coverage" NAME="put_all_words_lists Coverage Results" MODIFIED="1537875496456" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase/interface/words_lists/ci_hui" />
     <SUITE FILE_PATH="coverage/Langbo_APP_UI_Test$get_sen_fill_answer_lists.coverage" NAME="get_sen_fill_answer_lists Coverage Results" MODIFIED="1532069074545" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase/interface/sysListening/sen_fill" />
     <SUITE FILE_PATH="coverage/Langbo_APP_UI_Test$sen_fill_all_answer.coverage" NAME="sen_fill_all_answer Coverage Results" MODIFIED="1532050122771" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase/interface/sysListening/sen_fill" />
     <SUITE FILE_PATH="coverage/Langbo_APP_UI_Test$test_trans2.coverage" NAME="test_trans2 Coverage Results" MODIFIED="1532674659568" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase/page/learn_center/listening/word_trans" />
@@ -32,7 +80,7 @@
     <SUITE FILE_PATH="coverage/Langbo_WebUI_Test$config.coverage" NAME="config Coverage Results" MODIFIED="1528190067388" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utils" />
     <SUITE FILE_PATH="coverage/Langbo_APP_UI_Test$get_long_conv_all_answer.coverage" NAME="get_long_conv_all_answer Coverage Results" MODIFIED="1532313047030" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase/interface/sysListening/long_conv" />
     <SUITE FILE_PATH="coverage/Langbo_APP_UI_Test$sys_listening.coverage" NAME="sys_listening Coverage Results" MODIFIED="1531380007936" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase/interface/sysListening" />
-    <SUITE FILE_PATH="coverage/Langbo_APP_UI_Test$learn_center.coverage" NAME="learn_center Coverage Results" MODIFIED="1537451249994" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase/page/tests" />
+    <SUITE FILE_PATH="coverage/Langbo_APP_UI_Test$learn_center.coverage" NAME="learn_center Coverage Results" MODIFIED="1537924748889" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase/page/tests" />
     <SUITE FILE_PATH="coverage/Langbo_APP_UI_Test$allBasePageClass.coverage" NAME="allBasePageClass Coverage Results" MODIFIED="1537366541372" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase/common" />
     <SUITE FILE_PATH="coverage/Langbo_APP_UI_Test$danci_tingxie.coverage" NAME="danci_tingxie Coverage Results" MODIFIED="1531707266660" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase/page/learn_center/listening" />
     <SUITE FILE_PATH="coverage/Langbo_APP_UI_Test$test6_59_49.coverage" NAME="test6_59-49 Coverage Results" MODIFIED="1533002316947" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase/page/learn_center/listening/word_trans" />
@@ -42,7 +90,7 @@
     <SUITE FILE_PATH="coverage/Langbo_APP_UI_Test$Unittests_for_test_account_login_TestLogin.coverage" NAME="Unittests for test_account_login.TestLogin Coverage Results" MODIFIED="1531297796760" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase/case" />
     <SUITE FILE_PATH="coverage/Langbo_APP_UI_Test$login_method__1_.coverage" NAME="login_method (1) Coverage Results" MODIFIED="1531293974852" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase/page/login_page" />
     <SUITE FILE_PATH="coverage/Langbo_APP_UI_Test$test4.coverage" NAME="test4 Coverage Results" MODIFIED="1532912398223" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase/page/learn_center/listening/word_trans" />
-    <SUITE FILE_PATH="coverage/Langbo_APP_UI_Test$config.coverage" NAME="config Coverage Results" MODIFIED="1530190079147" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utils" />
+    <SUITE FILE_PATH="coverage/Langbo_APP_UI_Test$config.coverage" NAME="config Coverage Results" MODIFIED="1537844252225" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utils" />
     <SUITE FILE_PATH="coverage/Langbo_APP_UI_Test$test__2_.coverage" NAME="test (2) Coverage Results" MODIFIED="1532502095569" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase/interface/reading/sen_analysis" />
     <SUITE FILE_PATH="coverage/Langbo_APP_UI_Test$test_reg_login.coverage" NAME="test_reg_login Coverage Results" MODIFIED="1530176982386" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase/case" />
     <SUITE FILE_PATH="coverage/Langbo_APP_UI_Test$test_sen_ana.coverage" NAME="test_sen_ana Coverage Results" MODIFIED="1532584563534" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase/page/learn_center/reading/sen_analysis" />
@@ -54,7 +102,9 @@
     <SUITE FILE_PATH="coverage/Langbo_APP_UI_Test$basePage.coverage" NAME="basePage Coverage Results" MODIFIED="1531226694026" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase/common" />
     <SUITE FILE_PATH="coverage/Langbo_APP_UI_Test$get_short_conv_all_answer.coverage" NAME="get_short_conv_all_answer Coverage Results" MODIFIED="1532070039712" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase/interface/sysListening/short_conv" />
     <SUITE FILE_PATH="coverage/Langbo_APP_UI_Test$test_long_conv.coverage" NAME="test_long_conv Coverage Results" MODIFIED="1532591199076" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase/page/learn_center/listening/long_conv" />
+    <SUITE FILE_PATH="coverage/Langbo_APP_UI_Test$test_ini.coverage" NAME="test_ini Coverage Results" MODIFIED="1537863466727" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase/page/tests" />
     <SUITE FILE_PATH="coverage/Langbo_APP_UI_Test$postman_short_conv.coverage" NAME="postman_short_conv Coverage Results" MODIFIED="1532069156178" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase/interface/sysListening/short_conv" />
+    <SUITE FILE_PATH="coverage/Langbo_APP_UI_Test$all_task_funcs.coverage" NAME="all_task_funcs Coverage Results" MODIFIED="1537852098947" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase/page/tests/all_task" />
     <SUITE FILE_PATH="coverage/Langbo_WebUI_Test$No_test_baidu.coverage" NAME="No_test_baidu Coverage Results" MODIFIED="1528960084617" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase/case" />
     <SUITE FILE_PATH="coverage/Langbo_APP_UI_Test$login_method.coverage" NAME="login_method Coverage Results" MODIFIED="1531275826161" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase/page" />
     <SUITE FILE_PATH="coverage/Langbo_APP_UI_Test$test_gra_choice.coverage" NAME="test_gra_choice Coverage Results" MODIFIED="1532658712778" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase/page/learn_center/grammer/gra_choice" />
@@ -81,32 +131,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="config.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/config.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="learn_center.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/testcase/page/tests/learn_center.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret lean-forward="true" />
-              <folding>
-                <element signature="e#0#57#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="all_task_funcs.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/testcase/page/tests/all_task/all_task_funcs.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="195" column="8" selection-start-line="195" selection-start-column="8" selection-end-line="195" selection-end-column="8" />
+            <state relative-caret-position="209">
+              <caret line="21" column="15" selection-start-line="21" selection-start-column="15" selection-end-line="21" selection-end-column="15" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -114,11 +143,35 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="words_trans.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/testcase/page/tests/all_task/all_task_funs/listen/words_trans.py">
+      <file leaf-file-name="all_task_funcs.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/testcase/page/tests/all_task/all_task_funcs.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="107">
-              <caret line="40" column="20" selection-start-line="40" selection-start-column="20" selection-end-line="40" selection-end-column="20" />
+            <state relative-caret-position="546">
+              <caret line="189" column="38" selection-start-line="189" selection-start-column="38" selection-end-line="189" selection-end-column="38" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="wenzhang_xunlian.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/testcase/page/tests/all_task/all_task_funs/read/wenzhang_xunlian.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="641">
+              <caret line="91" column="17" selection-start-line="91" selection-start-column="17" selection-end-line="91" selection-end-column="17" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="devices_cfg.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/devices_cfg.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="6" column="18" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -152,6 +205,8 @@
       <find>听力测试共有</find>
       <find>取消</find>
       <find>写作测评</find>
+      <find>生词表</find>
+      <find>CI HUI</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -160,57 +215,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/testcase/page/learn_center/listening/word_trans/test_trans2.py" />
-        <option value="$PROJECT_DIR$/testcase/page/learn_center/listening/word_trans/test_trans3.py" />
-        <option value="$PROJECT_DIR$/testcase/page/learn_center/listening/word_trans/test.py" />
-        <option value="$PROJECT_DIR$/testcase/page/learn_center/listening/word_trans/test4.py" />
-        <option value="$PROJECT_DIR$/testcase/common/web_view.py" />
-        <option value="$PROJECT_DIR$/testcase/page/learn_center/listening/word_trans/test5_mting.py" />
-        <option value="$PROJECT_DIR$/testcase/page/learn_center/listening/word_trans/test6_59-49.py" />
-        <option value="$PROJECT_DIR$/testcase/interface/grammer/gra_choice/postman_answer_lists.py" />
-        <option value="$PROJECT_DIR$/testcase/interface/study_test/word_test.py" />
-        <option value="$PROJECT_DIR$/testcase/page/learn_center/listening/word_trans/test123.py" />
-        <option value="$PROJECT_DIR$/testcase/page/study_center/study_center_main.py" />
-        <option value="$PROJECT_DIR$/testcase/page/home_page/prod_intr_page.py" />
-        <option value="$PROJECT_DIR$/testcase/page/learn_center/reading/section_train/sen_ana_AllResultPage3.py" />
-        <option value="$PROJECT_DIR$/testcase/page/learn_center/reading/all_read_page.py" />
-        <option value="$PROJECT_DIR$/testcase/page/learn_center/listening/word_trans/quick.py" />
-        <option value="$PROJECT_DIR$/testcase/page/study_center/study_center_main_page.py" />
-        <option value="$PROJECT_DIR$/testcase/page/home_page/all_home_page.py" />
-        <option value="$PROJECT_DIR$/testcase/page/study_center/test_study_test.py" />
-        <option value="$PROJECT_DIR$/testcase/page/tests/learn_center.py" />
-        <option value="$PROJECT_DIR$/testcase/page/learn_center/grammer/gra_fill/gra_fill_FillAnswer2.py" />
-        <option value="$PROJECT_DIR$/testcase/common/basePage.py" />
-        <option value="$PROJECT_DIR$/testcase/page/learn_center/listening/word_dic/word_listening_all_resultPage4.py" />
-        <option value="$PROJECT_DIR$/testcase/page/learn_center/reading/sen_analysis/sen_ana_AllResultPage3.py" />
-        <option value="$PROJECT_DIR$/utils/config.py" />
-        <option value="$PROJECT_DIR$/testcase/interface/grammer/all_gra_interface.py" />
-        <option value="$PROJECT_DIR$/testcase/interface/all_interface.py" />
-        <option value="$PROJECT_DIR$/testcase/page/home_page/home_page.py" />
-        <option value="$PROJECT_DIR$/testcase/page/learn_center/all_class.py" />
-        <option value="$PROJECT_DIR$/testcase/page/common_page/word_lists_result.py" />
-        <option value="$PROJECT_DIR$/testcase/common/allBasePageClass.py" />
-        <option value="$PROJECT_DIR$/testcase/common/base_all_common_ele_page.py" />
-        <option value="$PROJECT_DIR$/testcase/page/common_page/webview_common_ele.py" />
-        <option value="$PROJECT_DIR$/testcase/common/base_word_lists_result.py" />
-        <option value="$PROJECT_DIR$/testcase/page/learn_center/listening/word_dic/word_listening_listsPage1.py" />
-        <option value="$PROJECT_DIR$/testcase/page/learn_center/grammer/gra_fill/gra_fill_WordsListPage1.py" />
-        <option value="$PROJECT_DIR$/testcase/page/learn_center/grammer/gra_fill/gra_fill_AllResultPage3.py" />
-        <option value="$PROJECT_DIR$/testcase/page/learn_center/grammer/all_gra_page.py" />
-        <option value="$PROJECT_DIR$/testcase/page/learn_center/grammer/gra_choice/gra_choice_ResultPage2.py" />
-        <option value="$PROJECT_DIR$/testcase/page/learn_center/grammer/gra_choice/gra_choice_AllResultPage3.py" />
-        <option value="$PROJECT_DIR$/testcase/page/learn_center/listening/word_trans/word_translating_ChooseAnswerPage.py" />
-        <option value="$PROJECT_DIR$/testcase/page/learn_center/listening/word_trans/word_translating_resultPage2.py" />
-        <option value="$PROJECT_DIR$/testcase/page/learn_center/listening/all_listening_page.py" />
-        <option value="$PROJECT_DIR$/testcase/page/learn_center/listening/word_dic/word_listening_resultPage3.py" />
-        <option value="$PROJECT_DIR$/testcase/interface/study_center/get_study_center_serverID.py" />
-        <option value="$PROJECT_DIR$/utils/mail.py" />
-        <option value="$PROJECT_DIR$/config/config.yml" />
-        <option value="$PROJECT_DIR$/testcase/page/learn_center/reading/section_train/sect_tra_WordsListPage1.py" />
-        <option value="$PROJECT_DIR$/testcase/common/base_all_result_page.py" />
-        <option value="$PROJECT_DIR$/testcase/page/tests/all_task/all_task_funs/read/sec_train.py" />
         <option value="$PROJECT_DIR$/testcase/interface/words_lists/all_cihui.py" />
+        <option value="$PROJECT_DIR$/config/cfg.ini" />
+        <option value="$PROJECT_DIR$/testcase/page/tests/cfg.ini" />
+        <option value="$PROJECT_DIR$/testcase/page/tests/config.yml" />
+        <option value="$PROJECT_DIR$/config/config.yml" />
+        <option value="$PROJECT_DIR$/testcase/interface/grammer/gra_choice/get_all_gra_choice_answer.py" />
+        <option value="$PROJECT_DIR$/utils/config.py" />
+        <option value="$PROJECT_DIR$/testcase/page/tests/all_task/all_task_funs/write/fangxiezaoju.py" />
+        <option value="$PROJECT_DIR$/testcase/page/tests/all_task/all_task_funs/listen/word_listening.py" />
+        <option value="$PROJECT_DIR$/testcase/page/tests/all_task/all_task_funs/listen/words_trans.py" />
+        <option value="$PROJECT_DIR$/testcase/page/tests/all_task/all_task_funs/listen/sen_fill.py" />
+        <option value="$PROJECT_DIR$/testcase/page/tests/all_task/all_task_funs/write/word_spell.py" />
+        <option value="$PROJECT_DIR$/testcase/page/tests/all_task/all_task_funs/grammer/gra_choice.py" />
+        <option value="$PROJECT_DIR$/testcase/page/tests/all_task/all_task_funs/read/sec_train.py" />
+        <option value="$PROJECT_DIR$/testcase/page/tests/all_task/all_task_funs/grammer/gra_fill.py" />
+        <option value="$PROJECT_DIR$/testcase/page/tests/all_task/all_task_funs/write/qianci_zaoju.py" />
+        <option value="$PROJECT_DIR$/testcase/page/tests/all_task/all_task_funs/read/wanxing_xunlian.py" />
+        <option value="$PROJECT_DIR$/testcase/page/tests/all_task/all_task_funs/listen/short_conv.py" />
+        <option value="$PROJECT_DIR$/testcase/page/tests/all_task/all_task_funs/listen/long_conv.py" />
+        <option value="$PROJECT_DIR$/testcase/page/tests/all_task/all_task_funs/read/sc75.py" />
+        <option value="$PROJECT_DIR$/testcase/page/tests/all_task/all_task_funs/grammer/error_find.py" />
+        <option value="$PROJECT_DIR$/testcase/page/tests/all_task/all_task_funs/write/zhenti_xiezuo.py" />
+        <option value="$PROJECT_DIR$/testcase/common/base_word_lists_result.py" />
+        <option value="$PROJECT_DIR$/testcase/page/tests/all_task/all_task_funs/read/sen_ana_fun.py" />
+        <option value="$PROJECT_DIR$/testcase/interface/reading/sen_analysis/get_all_sen_analysis_answer.py" />
+        <option value="$PROJECT_DIR$/testcase/interface/grammer/gra_fill/get_all_gra_fill_answer.py" />
+        <option value="$PROJECT_DIR$/testcase/interface/grammer/gra_fill/get_all_gra_choice_answer.py" />
+        <option value="$PROJECT_DIR$/testcase/interface/writing/word_spell/get_word_spell_all_answer.py" />
+        <option value="$PROJECT_DIR$/testcase/interface/writing/fangxie_zaoju/get_fangxie_zaoju_all_answer.py" />
+        <option value="$PROJECT_DIR$/testcase/interface/writing/zhenti_xiezuo/get_zhenti_xiezuo_all_answer.py" />
+        <option value="$PROJECT_DIR$/testcase/interface/writing/qianci_zaoju/get_all_qianci_zaoju_answer.py" />
+        <option value="$PROJECT_DIR$/testcase/interface/sysListening/word_dict/get_word_dict_all_answer.py" />
+        <option value="$PROJECT_DIR$/testcase/interface/sysListening/word_trans/get_word_trans_all_answer.py" />
+        <option value="$PROJECT_DIR$/testcase/interface/sysListening/short_conv/get_short_conv_all_answer.py" />
+        <option value="$PROJECT_DIR$/testcase/interface/sysListening/long_conv/get_long_conv_all_answer.py" />
+        <option value="$PROJECT_DIR$/testcase/interface/sysListening/sen_fill/get_sen_fill_all_answer.py" />
+        <option value="$PROJECT_DIR$/testcase/interface/reading/section_train/get_all_section_train.py" />
+        <option value="$PROJECT_DIR$/testcase/interface/reading/cloze_test/get_all_cloze_test_answer.py" />
+        <option value="$PROJECT_DIR$/testcase/interface/reading/sen_cloze75/get_all_sc_75_answer.py" />
+        <option value="$PROJECT_DIR$/testcase/page/tests/test_ini.py" />
+        <option value="$PROJECT_DIR$/testcase/interface/words_lists/ci_hui/get_all_words_lists.py" />
+        <option value="$PROJECT_DIR$/testcase/page/tests/all_task/all_task_funs/ci_hui/words_lists.py" />
+        <option value="$PROJECT_DIR$/testcase/interface/study_center/get_study_center_serverID.py" />
+        <option value="$PROJECT_DIR$/testcase/interface/words_lists/ci_hui/put_all_words_lists.py" />
+        <option value="$PROJECT_DIR$/testcase/common/basePage/web_view.py" />
+        <option value="$PROJECT_DIR$/config/devices_cfg.yml" />
         <option value="$PROJECT_DIR$/testcase/page/tests/all_task/all_task_funcs.py" />
+        <option value="$PROJECT_DIR$/testcase/page/home_page/home_page.py" />
+        <option value="$PROJECT_DIR$/testcase/common/basePage/basePage.py" />
+        <option value="$PROJECT_DIR$/testcase/page/tests/learn_center.py" />
+        <option value="$PROJECT_DIR$/testcase/page/tests/all_task/all_task_funs/read/wenzhang_xunlian.py" />
       </list>
     </option>
   </component>
@@ -221,10 +276,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-12" />
-    <option name="y" value="-12" />
-    <option name="width" value="1944" />
-    <option name="height" value="1056" />
+    <option name="x" value="1912" />
+    <option name="y" value="-93" />
+    <option name="width" value="1936" />
+    <option name="height" value="1066" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -234,6 +289,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -249,13 +305,12 @@
             <path>
               <item name="Langbo_APP_UI_Test" type="b2602c69:ProjectViewProjectNode" />
               <item name="Langbo_APP_UI_Test" type="462c0819:PsiDirectoryNode" />
-              <item name="testcase" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Langbo_APP_UI_Test" type="b2602c69:ProjectViewProjectNode" />
               <item name="Langbo_APP_UI_Test" type="462c0819:PsiDirectoryNode" />
               <item name="testcase" type="462c0819:PsiDirectoryNode" />
-              <item name="interface" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Langbo_APP_UI_Test" type="b2602c69:ProjectViewProjectNode" />
@@ -274,23 +329,22 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../MonkeyStressTest" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\liuda\Desktop\CEE\ManyDevices\Langbo_APP_UI_Test\config" />
+      <recent name="C:\Users\liuda\Desktop\CEE\ManyDevices\Langbo_APP_UI_Test\testcase\page\tests" />
+      <recent name="C:\Users\liuda\Desktop\Langbo_APP_UI_Test\testcase\page\tests" />
       <recent name="C:\Users\liuda\Desktop\Langbo_APP_UI_Test\testcase\interface\study_center" />
       <recent name="C:\Users\liuda\Desktop\Langbo_APP_UI_Test\testcase\page\study_center" />
-      <recent name="C:\Users\liuda\Desktop\Langbo_APP_UI_Test\testcase\page\learn_center\reading\sen_analysis" />
-      <recent name="C:\Users\liuda\Desktop\Langbo_APP_UI_Test\testcase\page\learn_center\listening\word_trans" />
-      <recent name="C:\Users\liuda\Desktop\Langbo_APP_UI_Test\testcase\page\learn_center\listening\short_conv" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\liuda\Desktop\Langbo_APP_UI_Test\testcase\page\learn_center\listening\short_conv" />
@@ -313,7 +367,7 @@
     </option>
   </component>
   <component name="RunManager" selected="Python.learn_center">
-    <configuration name="allBasePageClass" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="all_task_funcs" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Langbo_WebUI_Test" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -321,18 +375,18 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testcase/common" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testcase/page/tests/all_task" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/testcase/common/allBasePageClass.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/testcase/page/tests/all_task/all_task_funcs.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="home_page" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="config" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Langbo_WebUI_Test" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -340,12 +394,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testcase/page/home_page" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/utils" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/testcase/page/home_page/home_page.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/utils/config.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -370,7 +424,7 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="prod_intr_page" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="put_all_words_lists" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Langbo_WebUI_Test" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -378,18 +432,18 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testcase/page/home_page" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testcase/interface/words_lists/ci_hui" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/testcase/page/home_page/prod_intr_page.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/testcase/interface/words_lists/ci_hui/put_all_words_lists.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="quick" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="test_ini" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Langbo_WebUI_Test" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -397,31 +451,31 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testcase/page/learn_center/listening/word_trans" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testcase/page/tests" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/testcase/page/learn_center/listening/word_trans/quick.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/testcase/page/tests/test_ini.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list>
-      <item itemvalue="Python.quick" />
-      <item itemvalue="Python.home_page" />
-      <item itemvalue="Python.prod_intr_page" />
       <item itemvalue="Python.learn_center" />
-      <item itemvalue="Python.allBasePageClass" />
+      <item itemvalue="Python.test_ini" />
+      <item itemvalue="Python.config" />
+      <item itemvalue="Python.all_task_funcs" />
+      <item itemvalue="Python.put_all_words_lists" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python.learn_center" />
-        <item itemvalue="Python.allBasePageClass" />
-        <item itemvalue="Python.quick" />
-        <item itemvalue="Python.prod_intr_page" />
-        <item itemvalue="Python.home_page" />
+        <item itemvalue="Python.put_all_words_lists" />
+        <item itemvalue="Python.test_ini" />
+        <item itemvalue="Python.all_task_funcs" />
+        <item itemvalue="Python.config" />
       </list>
     </recent_temporary>
   </component>
@@ -468,21 +522,21 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1295" height="704" extended-state="6" />
-    <editor active="true" />
+    <frame x="1912" y="-93" width="1936" height="1066" extended-state="6" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32984293" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.32984293" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.13438046" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.21543409" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.32984293" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21099435" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49731183" visible="true" weight="0.141258" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32635254" />
       <window_info anchor="right" id="SciView" order="4" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Structure" order="1" sideWeight="0.50268817" side_tool="true" weight="0.21422797" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39441535" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -491,30 +545,29 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3279743" />
     </layout>
     <layout-to-restore>
-      <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.37870854" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27176222" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32984293" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.37870854" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32809773" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.32984293" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39441535" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.32984293" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32984293" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="right" id="SciView" order="4" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32809773" />
-      <window_info anchor="bottom" id="Python Console" order="10" weight="0.32984293" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info id="Favorites" order="2" side_tool="true" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -536,334 +589,304 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/config/config.yml">
+    <entry file="file://$PROJECT_DIR$/testcase/page/tests/all_task/all_task_funs/grammer/gra_fill.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+        <state relative-caret-position="178">
+          <caret line="14" column="36" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testcase/page/tests/learn_center.py">
+    <entry file="file://$PROJECT_DIR$/testcase/page/tests/all_task/all_task_funs/write/qianci_zaoju.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" column="15" selection-start-line="18" selection-start-column="15" selection-end-line="18" selection-end-column="15" />
-          <folding>
-            <element signature="e#0#57#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="159">
+          <caret line="12" column="41" lean-forward="true" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="41" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testcase/page/tests/all_task/all_task_funcs.py">
+    <entry file="file://$PROJECT_DIR$/testcase/page/tests/all_task/all_task_funs/read/wanxing_xunlian.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2736">
-          <caret line="144" column="37" lean-forward="true" selection-start-line="144" selection-start-column="37" selection-end-line="144" selection-end-column="37" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="235">
+          <caret line="17" column="37" lean-forward="true" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testcase/page/tests/all_task/all_task_funs/listen/words_trans.py">
+    <entry file="file://$PROJECT_DIR$/testcase/page/tests/all_task/all_task_funs/listen/short_conv.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="703">
-          <caret line="40" column="20" lean-forward="true" selection-start-line="40" selection-start-column="20" selection-end-line="40" selection-end-column="20" />
+        <state relative-caret-position="159">
+          <caret line="13" column="39" lean-forward="true" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testcase/page/learn_center/listening/short_conv/short_conv_step1_Page.py">
+    <entry file="file://$PROJECT_DIR$/testcase/page/tests/all_task/all_task_funs/listen/long_conv.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="2" selection-end-column="56" />
+        <state relative-caret-position="159">
+          <caret line="12" column="41" lean-forward="true" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="41" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testcase/page/learn_center/listening/short_conv/short_conv_step2_Page.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="7" lean-forward="true" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
-          <folding>
-            <element signature="e#0#43#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testcase/page/learn_center/listening/word_trans/word_translating_ChooseAnswerPage.py">
+    <entry file="file://$PROJECT_DIR$/testcase/page/tests/all_task/all_task_funs/write/zhenti_xiezuo.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
-          <caret line="13" column="62" lean-forward="true" selection-start-line="13" selection-start-column="62" selection-end-line="13" selection-end-column="62" />
+          <caret line="13" column="29" lean-forward="true" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testcase/page/learn_center/listening/word_trans/word_translating_resultPage2.py">
+    <entry file="file://$PROJECT_DIR$/testcase/page/tests/all_task/all_task_funs/grammer/error_find.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="398">
-          <caret line="22" column="8" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
-          <folding>
-            <element signature="e#0#43#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="303">
+          <caret line="43" column="34" lean-forward="true" selection-start-line="43" selection-start-column="34" selection-end-line="43" selection-end-column="34" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testcase/page/learn_center/listening/word_dic/word_listening_listsPage1.py">
+    <entry file="file://$PROJECT_DIR$/testcase/page/tests/all_task/all_task_funs/read/sc75.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="303">
+          <caret line="37" column="34" lean-forward="true" selection-start-line="37" selection-start-column="34" selection-end-line="37" selection-end-column="34" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/testcase/page/learn_center/reading/sen_analysis/sen_ana_ChooseAnswerPage1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="121">
+          <caret line="99" column="8" selection-start-line="99" selection-start-column="8" selection-end-line="99" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testcase/page/learn_center/listening/word_trans/word_translating_all_resultPage3.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testcase/page/learn_center/reading/sen_analysis/sen_ana_AllResultPage3.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testcase/page/learn_center/reading/sen_analysis/test_sen_ana.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="26" lean-forward="true" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testcase/page/learn_center/reading/sen_cloze75/sen_cloze75_step2_Page2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" column="75" selection-start-line="1" selection-start-column="52" selection-end-line="1" selection-end-column="75" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testcase/page/learn_center/reading/sen_cloze75/sen_cloze75_AllResultPage3.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="30" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testcase/page/learn_center/writing/fangxie_zaoju/fangxie_zaoju_fill_answerPage1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testcase/page/learn_center/writing/qianci_zaoju/qianci_zaoju_FillAnswerPage1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testcase/page/learn_center/writing/qianci_zaoju/qianci_zaoju_AllResultPage2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testcase/page/learn_center/writing/word_spell/word_spell_answerPage1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testcase/page/learn_center/writing/word_spell/word_spell_all_resultPage3.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#43#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testcase/page/learn_center/writing/word_spell/word_spell_SigleResultPage2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#43#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testcase/page/learn_center/writing/zhenti_xiezuo/zhenti_xiezuoPage1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#43#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testcase/page/learn_center/writing/zhenti_xiezuo/zhenti_xiezuo_AllResultPage2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#97#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testcase/page/learn_center/listening/word_dic/word_listening_answerPage2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testcase/page/learn_center/listening/long_conv/long_conv_all_resultPage3.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testcase/page/learn_center/listening/all_listening_page.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="100" selection-start-column="100" selection-end-column="100" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testcase/page/learn_center/listening/word_dic/word_listening_resultPage3.py">
+    <entry file="file://$PROJECT_DIR$/testcase/page/tests/all_task/all_task_funs/write/fangxiezaoju.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
-          <caret line="5" column="7" lean-forward="true" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
           <folding>
-            <element signature="e#0#43#0" expanded="true" />
+            <element signature="e#0#56#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testcase/page/study_center/study_center_main_page.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="398">
-          <caret line="115" column="8" lean-forward="true" selection-start-line="115" selection-start-column="8" selection-end-line="115" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testcase/interface/study_center/get_study_center_serverID_001.py" />
-    <entry file="file://$PROJECT_DIR$/testcase/interface/study_center/get_study_center_serverID.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="398">
-          <caret line="43" column="17" lean-forward="true" selection-start-line="43" selection-start-column="17" selection-end-line="43" selection-end-column="17" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testcase/interface/all_interface.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-          <folding>
-            <element signature="e#0#70#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/utils/mail.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/config.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testcase/page/learn_center/reading/section_train/sect_tra_WordsListPage1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="61" column="21" selection-start-line="61" selection-start-column="21" selection-end-line="61" selection-end-column="21" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testcase/common/base_all_result_page.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="82" column="16" lean-forward="true" selection-start-line="82" selection-start-column="16" selection-end-line="82" selection-end-column="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/testcase/common/base_word_lists_result.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="398">
-          <caret line="102" column="15" lean-forward="true" selection-start-line="102" selection-start-column="15" selection-end-line="102" selection-end-column="15" />
-          <folding>
-            <element signature="e#0#22#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="303">
+          <caret line="112" column="22" lean-forward="true" selection-start-line="112" selection-start-column="22" selection-end-line="112" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testcase/page/learn_center/reading/section_train/sen_tra_Step3Page2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testcase/page/learn_center/words_lists/words_lists_Page1.py">
+    <entry file="file://$PROJECT_DIR$/config/config.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret lean-forward="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testcase/page/home_page/prod_intr_page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
           <folding>
-            <element signature="e#0#43#0" expanded="true" />
+            <element signature="e#0#41#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testcase/interface/words_lists/ci_hui/put_all_words_lists.py">
+    <entry file="file://$PROJECT_DIR$/testcase/page/home_page/all_home_page.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="379">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        <state relative-caret-position="57">
+          <caret line="3" column="21" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testcase/page/learn_center/all_class.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="8" column="19" lean-forward="true" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testcase/page/tests/all_task/all_task_funs/read/sen_ana_fun.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="3" column="49" lean-forward="true" selection-start-line="3" selection-start-column="49" selection-end-line="3" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testcase/interface/words_lists/all_cihui.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="4" column="57" selection-start-line="4" selection-start-column="57" selection-end-line="4" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testcase/interface/grammer/gra_fill/get_all_gra_fill_answer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testcase/interface/grammer/gra_fill/get_all_gra_choice_answer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testcase/interface/grammer/all_gra_interface.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="4" column="56" selection-start-line="4" selection-start-column="56" selection-end-line="4" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testcase/interface/writing/word_spell/get_word_spell_all_answer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testcase/interface/writing/fangxie_zaoju/get_fangxie_zaoju_all_answer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testcase/interface/writing/zhenti_xiezuo/get_zhenti_xiezuo_all_answer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testcase/interface/writing/qianci_zaoju/get_all_qianci_zaoju_answer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testcase/interface/writing/all_wrt_interface.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="7" column="57" lean-forward="true" selection-start-line="7" selection-start-column="57" selection-end-line="7" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testcase/interface/sysListening/word_dict/get_word_dict_all_answer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testcase/interface/sysListening/word_trans/get_word_trans_all_answer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testcase/interface/sysListening/short_conv/get_short_conv_all_answer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testcase/interface/sysListening/long_conv/get_long_conv_all_answer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testcase/interface/sysListening/sen_fill/get_sen_fill_all_answer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testcase/interface/sysListening/all_listening_interface.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="7" column="121" lean-forward="true" selection-start-line="7" selection-start-column="121" selection-end-line="7" selection-end-column="121" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testcase/interface/reading/section_train/get_all_section_train.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testcase/interface/reading/sen_analysis/get_all_sen_analysis_answer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="23" lean-forward="true" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testcase/interface/reading/cloze_test/get_all_cloze_test_answer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testcase/interface/reading/sen_cloze75/get_all_sc_75_answer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="12" column="34" lean-forward="true" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testcase/page/tests/test_ini.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="12" lean-forward="true" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testcase/interface/reading/all_reading_interface.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="6" column="99" selection-start-line="6" selection-start-column="99" selection-end-line="6" selection-end-column="99" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testcase/interface/all_interface.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="45" lean-forward="true" selection-start-line="8" selection-start-column="45" selection-end-line="8" selection-end-column="45" />
+          <folding>
+            <element signature="e#0#70#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -878,44 +901,96 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testcase/interface/words_lists/all_cihui.py">
+    <entry file="file://$PROJECT_DIR$/testcase/page/study_center/study_center_main_page.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="27" lean-forward="true" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
+        <state relative-caret-position="152">
+          <caret line="97" column="30" lean-forward="true" selection-start-line="97" selection-start-column="30" selection-end-line="97" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testcase/interface/study_center/get_study_center_serverID.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="19" column="21" lean-forward="true" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
           <folding>
-            <element signature="e#0#93#0" expanded="true" />
+            <element signature="e#0#11#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testcase/page/tests/all_task/all_task_funs/read/sec_train.py">
+    <entry file="file://$PROJECT_DIR$/testcase/interface/words_lists/ci_hui/put_all_words_lists.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="49" column="25" selection-start-line="49" selection-start-column="25" selection-end-line="49" selection-end-column="25" />
+        <state relative-caret-position="243">
+          <caret line="30" column="405" selection-start-line="30" selection-start-column="405" selection-end-line="30" selection-end-column="405" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testcase/page/tests/all_task/all_task_funs/listen/words_trans.py">
+    <entry file="file://$PROJECT_DIR$/testcase/page/tests/all_task/all_task_funs/ci_hui/words_lists.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="107">
-          <caret line="40" column="20" selection-start-line="40" selection-start-column="20" selection-end-line="40" selection-end-column="20" />
+        <state relative-caret-position="228">
+          <caret line="15" column="17" lean-forward="true" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files/Python36/Lib/multiprocessing/pool.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="348" column="8" selection-start-line="348" selection-start-column="8" selection-end-line="348" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testcase/common/basePage/basePage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="18" column="19" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testcase/page/home_page/home_page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="18" column="7" lean-forward="true" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testcase/common/basePage/web_view.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="121">
+          <caret line="23" column="8" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/testcase/page/tests/learn_center.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" />
+        <state relative-caret-position="209">
+          <caret line="21" column="15" selection-start-line="21" selection-start-column="15" selection-end-line="21" selection-end-column="15" />
           <folding>
-            <element signature="e#0#57#0" expanded="true" />
+            <element signature="e#0#9#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/testcase/page/tests/all_task/all_task_funcs.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="195" column="8" selection-start-line="195" selection-start-column="8" selection-end-line="195" selection-end-column="8" />
+        <state relative-caret-position="546">
+          <caret line="189" column="38" selection-start-line="189" selection-start-column="38" selection-end-line="189" selection-end-column="38" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/devices_cfg.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="18" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testcase/page/tests/all_task/all_task_funs/read/wenzhang_xunlian.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="641">
+          <caret line="91" column="17" selection-start-line="91" selection-start-column="17" selection-end-line="91" selection-end-column="17" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>

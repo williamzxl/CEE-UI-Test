@@ -7,9 +7,9 @@ class HomeWork(AllInterface, StudyCenter, AllPage):
     pass
 
 
-def fangxiezaoju(home_work, k0, k1, click_result):
+def fangxiezaoju(home_work, headers, k0, k1, click_result):
     fangxie_zaoju = HomeWork()
-    fangxie_zaoju_answers = fangxie_zaoju.get_all_fangxie_zaoju_answer(k0, k1)
+    fangxie_zaoju_answers = fangxie_zaoju.get_all_fangxie_zaoju_answer(headers, k0, k1)
     # click_result = home_work.click_one_list(home_work, g)
     if int(click_result) == 2:
         home_work.click_finish_button()

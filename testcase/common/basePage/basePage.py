@@ -14,9 +14,9 @@ class BasePage(WebView):
     def get_driver(self):
         return self.driver
 
-    def open(self):
+    def open(self, appium_url, desired_caps):
         try:
-            self.get()
+            self.get(appium_url, desired_caps)
         except:
             raise ValueError("Connect appium failed!")
 

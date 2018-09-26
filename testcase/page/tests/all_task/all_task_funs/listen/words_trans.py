@@ -8,9 +8,9 @@ class HomeWork(AllInterface, StudyCenter, AllPage):
     pass
 
 
-def word_trans(home_work, k0, k1, click_result):
+def word_trans(home_work, headers, k0, k1, click_result):
     word_trans = HomeWork()
-    word_answers = word_trans.get_all_trans_answer(k0, k1)
+    word_answers = word_trans.get_all_trans_answer(headers, k0, k1)
     # click_result = home_work.click_one_list(home_work, g)
     print("Click_result,", click_result)
     sleep(3)

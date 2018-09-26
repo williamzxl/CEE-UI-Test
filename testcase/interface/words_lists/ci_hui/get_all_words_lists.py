@@ -1,17 +1,21 @@
 import requests
 import json
-from utils.config import get_headers
+# from utils.config import get_headers
+
+pro = "https"
 
 
 class GetAllWordsListsAnswers(object):
     def __init__(self):
-        self.headers = get_headers()
-        self.url = self.headers.get('Host')
+        # self.headers = headers
+        # self.url = self.headers.get('Host')
+        self.pas = None
 
-    def get_all_words_lists_answer(self, servicesID):
-        url = "http://{}/userStudyCenter/{}/taskInfo".format(self.url, servicesID)
+    def get_all_words_lists_answer(self, headers, servicesID):
+        host = headers.get("Host")
+        url = "{}://{}/userStudyCenter/{}/taskInfo".format(pro, host, servicesID)
         querystring = {"taskID": ""}
-        response = requests.request("GET", url, headers=self.headers, params=querystring)
+        response = requests.request("GET", url, headers=headers, params=querystring)
         answer = response.text
         json_data = json.loads(answer)
         result = json_data.pop("data").pop('practice')
@@ -22,19 +26,20 @@ class GetAllWordsListsAnswers(object):
                 all_words_lists.append(a.get('servicePracticeIdx'))
         return all_words_lists
 
-    def get_all_words_groupId(self, servicesID):
-            url = "http://{}/userStudyCenter/{}/taskInfo".format(self.url, servicesID)
-            querystring = {"taskID": ""}
-            response = requests.request("GET", url, headers=self.headers, params=querystring)
-            answer = response.text
-            json_data = json.loads(answer)
-            result = json_data.pop("data").pop('practice')
-            all_words_lists_groupID = []
-            for r in result:
-                all_lists = r.get('questGuide')
-                for a in all_lists:
-                    all_words_lists_groupID.append(a.get('groupID'))
-            return all_words_lists_groupID
+    def get_all_words_groupId(self, headers, servicesID):
+        host = headers.get("Host")
+        url = "{}://{}/userStudyCenter/{}/taskInfo".format(pro, host, servicesID)
+        querystring = {"taskID": ""}
+        response = requests.request("GET", url, headers=headers, params=querystring)
+        answer = response.text
+        json_data = json.loads(answer)
+        result = json_data.pop("data").pop('practice')
+        all_words_lists_groupID = []
+        for r in result:
+            all_lists = r.get('questGuide')
+            for a in all_lists:
+                all_words_lists_groupID.append(a.get('groupID'))
+        return all_words_lists_groupID
 
 
 if __name__ == '__main__':

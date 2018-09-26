@@ -1,17 +1,19 @@
 import requests
 import json
-from utils.config import get_headers
+# from utils.config import get_headers
 
 
 class GetAllZhentiXiezuoAnswers(object):
     def __init__(self):
-        self.headers = get_headers()
-        self.url = self.headers.get('Host')
+        # self.headers = headers
+        # self.url = self.headers.get('Host')
+        self.pas = None
 
-    def get_all_zhenti_xiezuo_answer(self, groupID, taskID):
-        url = "http://{}/sysWriting/{}/writing".format(self.url, str(groupID))
+    def get_all_zhenti_xiezuo_answer(self, headers, groupID, taskID):
+        host = headers.get("Host")
+        url = "http://{}/sysWriting/{}/writing".format(host, str(groupID))
         querystring = {"groupID": "{}".format(groupID), "taskID": "{}".format(taskID)}
-        response = requests.request("GET", url, headers=self.headers, params=querystring)
+        response = requests.request("GET", url, headers=headers, params=querystring)
         answer = response.text
         # print(answer)
         json_data = json.loads(answer)

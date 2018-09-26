@@ -19,9 +19,21 @@ class BeforeConfig(object):
 
 
 all_configs = CONFIG_PATH + "\config.yml"
+new_all_cfg = CONFIG_PATH + "\devices_cfg.yml"
 
 
 class Config(object):
+    def __init__(self, config=all_configs):
+        self.configs = YamlReader(config).data
+
+    def get(self, element):
+        for config in self.configs:
+            for i in range(len(config)):
+                if element in config[i]:
+                    yield config[i].get(element)
+
+
+class NewConfig(object):
     def __init__(self, config=all_configs):
         self.configs = YamlReader(config).data
 
@@ -41,11 +53,11 @@ def get_desired_caps(appium_url='appium_url', caps='desired_caps_info'):
     content = cfg_info.get(caps)
     for info in content:
         desired_caps.update(info)
-    return (url, desired_caps)
-
+    return (desired_caps)
 
 def get_appPackage(caps='desired_caps_info'):
     cfg_info = Config()
+    # print(cfg_info)
     app_package = {}
     content = cfg_info.get(caps)
     for info in content:
@@ -53,28 +65,28 @@ def get_appPackage(caps='desired_caps_info'):
     return app_package.get("appPackage")
 
 
-def get_headers(heads='headers'):
-    cfg_info = Config()
-    headers = {}
-    header_info = cfg_info.get(heads)
-    for header in header_info:
-        headers.update(header)
-    # print("headers,",headers)
-    return headers
+# def get_headers(heads='common'):
+#     cfg_info = Config()
+#     headers = {}
+#     header_info = cfg_info.get(heads)
+#     for header in header_info:
+#         headers.update(header)
+#     # print("headers,",headers)
+#     return headers
 
 
-def get_device_name(caps='desired_caps_info'):
-    cfg_info = Config()
-    devices_name = {}
-    content = cfg_info.get(caps)
-    for info in content:
-        devices_name.update(info)
-    return devices_name.get("deviceName")
+# def get_device_name(caps='desired_caps_info'):
+#     cfg_info = Config()
+#     devices_name = {}
+#     content = cfg_info.get(caps)
+#     for info in content:
+#         devices_name.update(info)
+#     return devices_name.get("deviceName")
 
 
 if __name__ == "__main__":
-    result = get_desired_caps(appium_url='appium_url1',caps='desired_caps_info1')
-    print(result[1])
+    # result = get_desired_caps(appium_url='appium_url1',caps='desired_caps_info1')
+    # print(result[1])
     # print(result[0].pop('appPackage'))
     # print(result[1].pop('headers'))
     # headers = get_headers()
@@ -83,7 +95,7 @@ if __name__ == "__main__":
     # print(host)
     appPackage = get_appPackage()
     print(appPackage)
-    devices_name = get_device_name(caps='desired_caps_info1')
-    print(devices_name)
+    # devices_name = get_device_name(caps='desired_caps_info1')
+    # print(devices_name)
 
 

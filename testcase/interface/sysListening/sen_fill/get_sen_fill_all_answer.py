@@ -1,18 +1,20 @@
 import requests
 import json
-from utils.config import get_headers
+# from utils.config import get_headers
 
 
 class GetAllSenFillAnswers(object):
     def __init__(self):
-        self.headers = get_headers()
-        self.url = self.headers.get('Host')
+        # self.headers = headers
+        # self.url = self.headers.get('Host')
+        self.pas = None
 
-    def get_all_sen_fill_answer(self, groupID, taskID):
-        url = "http://{}/sysListening/{}/senFill".format(self.url, groupID)
+    def get_all_sen_fill_answer(self, headers, groupID, taskID):
+        host = headers.get('Host')
+        url = "http://{}/sysListening/{}/senFill".format(host, groupID)
         # url = "http://192.168.1.154:55262/sysListening/1000/wordDic"
         querystring = {"taskID": "{}".format(taskID)}
-        response = requests.request("GET", url, headers=self.headers, params=querystring)
+        response = requests.request("GET", url, headers=headers, params=querystring)
         answer = response.text
         json_data = json.loads(answer)
         result = json_data.pop("data").pop('questGuide')

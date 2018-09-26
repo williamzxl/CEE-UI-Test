@@ -8,9 +8,9 @@ class HomeWork(AllInterface, StudyCenter, AllPage):
     pass
 
 
-def sen_fill(home_work, k0, k1, click_result):
+def sen_fill(home_work, headers, k0, k1, click_result):
     sen_fill = HomeWork()
-    all_answers = sen_fill.get_all_sen_fill_answer(k0, k1)
+    all_answers = sen_fill.get_all_sen_fill_answer(headers, k0, k1)
     # click_result = home_work.click_one_list(home_work, g)
     print("Click_result,", click_result)
     sleep(10)

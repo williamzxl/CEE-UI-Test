@@ -8,9 +8,9 @@ class HomeWork(AllInterface, StudyCenter, AllPage):
     pass
 
 
-def long_conv(home_work, k0, k1, click_result):
+def long_conv(home_work, headers, k0, k1, click_result):
     long_conv = HomeWork()
-    all_answers = long_conv.get_all_long_conv_answer(k0, k1)
+    all_answers = long_conv.get_all_long_conv_answer(headers, k0, k1)
     print(len(all_answers))
     # click_result = home_work.click_one_list(home_work, g)
     print("Click_result,", click_result)

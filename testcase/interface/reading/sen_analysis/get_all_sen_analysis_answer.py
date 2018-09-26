@@ -1,19 +1,21 @@
 import requests
 import json
 from itertools import chain
-from utils.config import get_headers
+# from utils.config import get_headers
 
 
 class GetAllSenAnAAnswers(object):
     def __init__(self):
-        self.url = "appncee_dev.langb.cn"
-        self.headers = get_headers()
-        self.url = self.headers.get('Host')
+        # self.headers = headers
+        # self.url = self.headers.get('Host')
+        self.pas = None
 
-    def get_all_sen_analysis_answer(self, groupID, taskID):
-        url = "http://{}/sysReading/{}/senAnalysis".format(self.url, groupID)
+    def get_all_sen_analysis_answer(self, headers, groupID, taskID):
+        host = headers.get('Host')
+        print("host", host)
+        url = "http://{}/sysReading/{}/senAnalysis".format(host, groupID)
         querystring = {"taskID": "{}".format(taskID)}
-        response = requests.request("GET", url, headers=self.headers, params=querystring)
+        response = requests.request("GET", url, headers=headers, params=querystring)
         answer = response.text
         json_data = json.loads(answer)
         result = json_data.pop("data").pop('questGuide')
@@ -23,6 +25,7 @@ class GetAllSenAnAAnswers(object):
             all_questAnswer = q.get('subQuestGuide')
             all_answers.append([a.get('questAnswer') for a in all_questAnswer])
             all_answers_choice.append([a.get('questChoices') for a in all_questAnswer])
+        print("Host ENd")
         return all_answers, all_answers_choice
 
     def right_answer_sen_ana(self, answers, answers_choice, sen_num=None, ques_num=None):

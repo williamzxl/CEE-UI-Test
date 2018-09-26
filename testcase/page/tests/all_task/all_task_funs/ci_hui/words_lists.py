@@ -8,13 +8,13 @@ class HomeWork(AllInterface, StudyCenter, AllPage):
     pass
 
 
-def words_lists(homework, taskID, serviceID):
-    print(taskID, serviceID)
+def words_lists(homework, headers, taskID, serviceID):
+    print("taskID, serviceID", taskID, serviceID)
     cihui = HomeWork()
-    all_group_lists = cihui.get_all_words_groupId(serviceID)
+    all_group_lists = cihui.get_all_words_groupId(headers, serviceID)
     # homework.click_back_btn()
     print(all_group_lists)
     for gID in all_group_lists:
         print("gID", gID)
-        cihui.put_all_words_lists_done(taskID, gID)
+        cihui.put_all_words_lists_done(headers, taskID, gID)
 

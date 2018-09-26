@@ -1,11 +1,11 @@
 import requests
 import json
-from utils.config import get_headers
+# from utils.config import get_headers
 
 
 class GetAllGraChoiceAnswers(object):
-    def __init__(self):
-        self.headers = get_headers()
+    def __init__(self, headers):
+        self.headers = headers
         self.url = self.headers.get('Host')
 
 

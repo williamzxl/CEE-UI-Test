@@ -37,12 +37,12 @@ class HomeWork1(StudyCenter, AllPage, GetTaskGroupNum):
     pass
 
 
-def main1():
+def main1(appium_url, d, h):
     try:
         print("Begin")
         home_work = HomeWork1()
-        print("Begin01")
-        home_work.open()
+        print("Begin01", appium_url, d)
+        home_work.open(appium_url, d)
         home_work.click_learning_center()
         sleep(5)
         print("Begin2")
@@ -68,16 +68,14 @@ def main1():
             sleep(2)
             task_CN_lists = home_work.return_all_test_ele()
             task_group = GetTaskGroupNum()
-            serviceID = task_group.get_service_id()
-            result = task_group.get_task_group_id(serviceID)
+            serviceID = task_group.get_service_id(h)
+            result = task_group.get_task_group_id(h, serviceID)
             task_group_ids = []
             for i in result:
                 task_group_ids.append([i.get("groupID"), i.get("taskID"), i.get("currStatus")])
             times = []
             print(task_CN_lists)
             print(task_group_ids)
-            # a = []
-            # b = []
             for k1 in task_group_ids:
                 print("k1", k1)
                 if None in k1:
@@ -96,8 +94,9 @@ def main1():
                         times.append("1")
                         home_work.swipeUp(ex_x, ex_y, 10, 200)
                         pass
-                    if "词汇" in home_work.page_source() and "List" in home_work.page_source():
-                        words_lists(home_work, k[1], serviceID)
+                    elif "词汇" in home_work.page_source() and "List" in home_work.page_source():
+                        print("CI HUI", "词汇" in home_work.page_source() and "List" in home_work.page_source())
+                        words_lists(home_work, h, k[1], serviceID)
                         try:
                             home_work.click_my()
                             home_work.click_learning_center()
@@ -132,62 +131,66 @@ def main1():
                         if "课" in result:
                             times.append("0")
                         else:
-                            click_result = home_work.click_one_list(home_work, g)
+                            try:
+                                click_result = home_work.click_one_list(home_work, g)
+                            except:
+                                pass
                             try:
                                 home_work.click_video_back_btn()
                             except:
                                 pass
 
                             if result == "仿写造句":
-                                fangxiezaoju(home_work, k[0], k[1], click_result)
+                                fangxiezaoju(home_work, h, k[0], k[1], click_result)
 
                             if result == "句子分析":
-                                sen_ana(home_work, k[0], k[1], click_result)
+                                print("click_result",click_result)
+                                sen_ana(home_work, h, k[0], k[1], click_result)
 
                             if result == "单词听写":
-                                word_listening(home_work, k[0], k[1], click_result)
+                                word_listening(home_work, h, k[0], k[1], click_result)
 
                             if result == "单词听译":
-                                word_trans(home_work, k[0], k[1], click_result)
+                                word_trans(home_work, h, k[0], k[1], click_result)
 
                             if result == "句子填充":
-                                sen_fill(home_work, k[0], k[1], click_result)
+                                sen_fill(home_work, h, k[0], k[1], click_result)
 
                             if result == "单词拼写":
-                                word_spell(home_work, k[0], k[1], click_result)
+                                word_spell(home_work, h, k[0], k[1], click_result)
 
                             if result == "单项选择":
-                                gra_choice(home_work, k[0], k[1], click_result)
+                                gra_choice(home_work, h, k[0], k[1], click_result)
 
                             if result == "段落训练":
-                                sec_train(home_work, k[0], k[1], click_result)
+                                sec_train(home_work, h, k[0], k[1], click_result)
 
                             if result == "语法填空":
-                                gra_fill(home_work, k[0], k[1], click_result)
+                                gra_fill(home_work, h, k[0], k[1], click_result)
 
                             if result == "遣词造句":
-                                qianci_zaoju(home_work, k[0], k[1], click_result)
+                                qianci_zaoju(home_work, h, k[0], k[1], click_result)
 
                             if result == "完形训练":
-                                wanxing_xunlian(home_work, k[0], k[1], click_result)
+                                wanxing_xunlian(home_work, h, k[0], k[1], click_result)
 
                             if result == "短对话":
-                                short_conv(home_work, k[0], k[1], click_result)
+                                short_conv(home_work, k[0], h, k[1], click_result)
 
                             if result == "长对话":
-                                long_conv(home_work, k[0], k[1], click_result)
+                                long_conv(home_work, k[0], h, k[1], click_result)
 
                             if result == "真题写作":
-                                zhenti_xiezuo(home_work, k[0], k[1], click_result)
+                                zhenti_xiezuo(home_work, d, h, k[0], k[1], click_result)
 
                             if result == "七选五":
-                                sc75(home_work, k[0], k[1], click_result)
+                                sc75(home_work, h, k[0], k[1], click_result)
 
                             if result == "文章训练":
-                                wenzhang_xunlian(home_work, k[0], k[1], click_result)
+                                wenzhang_xunlian(home_work, d, h, k[0], k[1], click_result)
 
                             if result == "短文改错":
-                                error_find(home_work, k[0], k[1], click_result)
+                                error_find(home_work, h, k[0], k[1], click_result)
     except:
         pass
 

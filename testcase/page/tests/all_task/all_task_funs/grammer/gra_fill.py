@@ -9,14 +9,16 @@ class HomeWork(AllInterface, StudyCenter, AllPage):
     pass
 
 
-def gra_fill(home_work, k0, k1, click_result):
+def gra_fill(home_work, headers, k0, k1, click_result):
     print("开始作答语法填空")
     gra_fill = HomeWork()
-    answers = gra_fill.get_all_gra_fill_answer(k0, k1)
+    answers = gra_fill.get_all_gra_fill_answer(headers, k0, k1)
     print("answer", answers)
     # click_result = home_work.click_one_list(home_work, g)
     print("click_result", click_result)
     right_answer = gra_fill.gra_fill_right_answer(answers)
+    if click_result == 3:
+        home_work.click_back_btn()
     if click_result == 5:
         home_work.click_gra_fill_next_step()
         home_work.gra_fill_fill_answer(home_work, answers=right_answer, nums=10)

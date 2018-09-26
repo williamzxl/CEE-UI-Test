@@ -8,10 +8,10 @@ class HomeWork(AllInterface, StudyCenter, AllPage):
     pass
 
 
-def word_spell(home_work, k0, k1, click_result):
+def word_spell(home_work, headers, k0, k1, click_result):
     print("单词拼写,单词拼写")
     word_spell = HomeWork()
-    word_answers = word_spell.get_all_word_spell_answer(k0, k1)
+    word_answers = word_spell.get_all_word_spell_answer(headers, k0, k1)
     # click_result = home_work.click_one_list(home_work, g)
     if int(click_result) == 2:
         home_work.click_finish_button()

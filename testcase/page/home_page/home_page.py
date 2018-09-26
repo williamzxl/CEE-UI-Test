@@ -12,8 +12,9 @@ class HomePage(BasePage):
     nav_learning_center = (By.ID, "com.langlib.ncee:id/navigation_learning_center")
     nav_my_id = (By.ID, "com.langlib.ncee:id/navigation_my")
 
-    def open(self, noReset=None):
-        self.get(30, noReset)
+    def open(self, appium_url, desired_caps, noReset=None):
+        print("Open", appium_url, desired_caps)
+        self.get(appium_url, desired_caps, 30, noReset)
 
     '''
     首页页面操作

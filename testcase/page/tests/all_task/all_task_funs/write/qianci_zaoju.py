@@ -8,9 +8,9 @@ class HomeWork(AllInterface, StudyCenter, AllPage):
     pass
 
 
-def qianci_zaoju(home_work, k0, k1, click_result):
+def qianci_zaoju(home_work, headers, k0, k1, click_result):
     qianci_zaoju = HomeWork()
-    answers = qianci_zaoju.get_all_qianci_zaoju_answer(k0, k1)
+    answers = qianci_zaoju.get_all_qianci_zaoju_answer(headers, k0, k1)
     print("answer", answers)
     # click_result = home_work.click_one_list(home_work, g)
     sleep(10)

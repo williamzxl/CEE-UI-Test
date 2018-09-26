@@ -1,18 +1,20 @@
 import requests
 import json
-from utils.config import get_headers
+# from utils.config import get_headers
 
 
 class GetAllWordDictAnswers(object):
     def __init__(self):
-        self.headers = get_headers()
-        self.url = self.headers.get('Host')
+        # self.headers = headers
+        # self.url = self.headers.get('Host')
+        self.pas = None
 
-    def get_all_dict_answer(self, groupID, taskID):
+    def get_all_dict_answer(self, headers, groupID, taskID):
         # http: // appncee_dev.langb.cn / sysListening / 1104 / wordDic
-        url = "http://{}/sysListening/{}/wordDic".format(self.url, str(groupID))
+        host = headers.get('Host')
+        url = "http://{}/sysListening/{}/wordDic".format(host, str(groupID))
         querystring = {"taskID": "{}".format(str(taskID))}
-        response = requests.request("GET", url, headers=self.headers, params=querystring)
+        response = requests.request("GET", url, headers=headers, params=querystring)
         answer = response.text
         # print(answer)
         json_data = json.loads(answer)

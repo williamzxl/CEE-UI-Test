@@ -7,13 +7,13 @@ class HomeWork(AllInterface, StudyCenter, AllPage):
     pass
 
 
-def sec_train(home_work, k0, k1, click_result):
+def sec_train(home_work, headers, k0, k1, click_result):
     title = home_work.get_page_title()
     if str(title) != "段落训练":
         pass
     if True:
         sec_train = HomeWork()
-        answers = sec_train.get_all_section_train_answers(k0, k1)
+        answers = sec_train.get_all_section_train_answers(headers, k0, k1)
         print("answer", answers)
         # click_result = home_work.click_one_list(home_work, g)
         step2_answers, _ = sec_train.sen_train_right_answer(answers)

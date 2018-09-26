@@ -1,19 +1,20 @@
 import requests
 import json
-from itertools import chain
-from utils.config import get_headers
+# from itertools import chain
+# from utils.config import get_headers
 
 
 class GetAllQianciZaojuAnswers(object):
     def __init__(self):
-        self.url = "appncee_dev.langb.cn"
-        self.headers = get_headers()
-        self.url = self.headers.get('Host')
+        # self.headers = headers
+        # self.url = self.headers.get('Host')
+        self.pas = None
 
-    def get_all_qianci_zaoju_answer(self, groupID, taskID):
-        url = "http://{}/sysWriting/{}/construction".format(self.url, groupID)
+    def get_all_qianci_zaoju_answer(self, headers, groupID, taskID):
+        host = headers.get('Host')
+        url = "http://{}/sysWriting/{}/construction".format(host, groupID)
         querystring = {"groupID": "{}".format(groupID), "taskID": "{}".format(taskID)}
-        response = requests.request("GET", url, headers=self.headers, params=querystring)
+        response = requests.request("GET", url, headers=headers, params=querystring)
         answer = response.text
         json_data = json.loads(answer)
         result = json_data.pop("data").pop('questGuide')

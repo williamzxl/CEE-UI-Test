@@ -1,20 +1,21 @@
 import json
 import requests
-from utils.config import get_headers
-
+# from utils.config import get_headers
+pro = "https"
 
 class GetTaskGroupNum(object):
     def __init__(self):
-        # self.url = "appncee_dev.langb.cn"
-        self.headers = get_headers()
-        self.url = self.headers.get('Host')
+        # self.headers = headers
+        # self.url = self.headers.get('Host')
+        pass
 
-    def get_service_id(self):
-        url = "http://{}/userStudyCenter/serviceInfo".format(self.url)
+    def get_service_id(self, headers):
+        host = headers.get("Host")
+        url = "{}://{}/userStudyCenter/serviceInfo".format(pro, host)
         # http: // appncee.langb.cn / userStudyCenter / P90 / taskInfo?taskID =
         print(url)
         querystring = {"serviceID":""}
-        response = requests.request("GET", url, headers=self.headers, params=querystring)
+        response = requests.request("GET", url, headers=headers, params=querystring)
         result = response.text
         print(result)
         json_data = json.loads(result)
@@ -22,11 +23,12 @@ class GetTaskGroupNum(object):
         return (data.get('serviceID'))
 
 
-    def get_task_group_id(self, serviceId):
+    def get_task_group_id(self, headers, serviceId):
         task_group = []
-        url = "http://{}/userStudyCenter/{}/taskInfo".format(self.url, serviceId)
+        host = headers.get("Host")
+        url = "{}://{}/userStudyCenter/{}/taskInfo".format(pro, host, serviceId)
         querystring = {"taskID": ""}
-        response = requests.request("GET", url, headers=self.headers, params=querystring)
+        response = requests.request("GET", url, headers=headers, params=querystring)
         json_data = json.loads(response.text)
         try:
             result0 = json_data.get("data").get('userCourse').get('mtdCourse')

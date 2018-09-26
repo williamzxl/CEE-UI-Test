@@ -2,7 +2,7 @@ import time
 import os
 from appium import webdriver
 from appium.webdriver.connectiontype import ConnectionType
-from utils.config import get_desired_caps, REPORT_PATH
+from utils.config import REPORT_PATH
 
 TYPES = {'remote': webdriver.Remote}
 
@@ -12,12 +12,8 @@ class UnSupportTypeError(Exception):
 
 
 class WebView(object):
-    def __init__(self, browser_type=None):
-        self.url = get_desired_caps()[0]
-        self.desired_caps = get_desired_caps()[1]
-        self.package = get_desired_caps()[1].pop('appPackage')
-        self.apk_file = get_desired_caps()[1].pop('apk_file')
-        self.background_time = get_desired_caps()[1].pop('background_time')
+    def __init__(self,browser_type=None):
+        # self.desired_caps = desired_caps
         self._type = 'remote'
         if self._type in TYPES:
             self.browser = TYPES[self._type]
@@ -25,12 +21,14 @@ class WebView(object):
             raise UnSupportTypeError('Only support {}！'.join(TYPES.keys()))
         self.driver = None
 
-    def get(self, implicitly_wait=30, noReset=None):
+    def get(self, appium_url, desired_caps, implicitly_wait=30, noReset=None):
+        # print("Get", desired_caps)
         if noReset == None or noReset == True:
-            self.desired_caps.update({'noReset':True})
+            desired_caps.update({'noReset':True})
         else:
-            self.desired_caps.update({'noReset': False})
-        self.driver = webdriver.Remote(self.url, self.desired_caps)
+            desired_caps.update({'noReset': False})
+        # print(self.desired_caps)
+        self.driver = webdriver.Remote(appium_url.get('url'), desired_caps)
         self.driver.implicitly_wait(implicitly_wait)
         return self
 
@@ -47,8 +45,6 @@ class WebView(object):
         x = self.driver.get_window_size()['width']
         y = self.driver.get_window_size()['height']
         return (x, y)
-
-
 
     def flickUp(self, x, y1, y2):
         x = int(x * 0.8)
@@ -88,13 +84,13 @@ class WebView(object):
         self.driver.quit()
 
     def is_app_installed(self):
-        return self.driver.is_app_installed(self.package)
+        return self.driver.is_app_installed(self.desired_caps.get('package'))
 
     # def install_app(self):
     #     return self.driver.install_app(APK_PATH + '\{}'.format(self.apk_file))
 
     def remove_app(self):
-        return self.driver.remove_app(self.package)
+        return self.driver.remove_app(self.desired_caps.get('package'))
 
     def launch_app(self):
         return self.driver.launch_app()
@@ -106,7 +102,7 @@ class WebView(object):
         if background_time:
             return self.driver.background_app(background_time)
         else:
-            return self.driver.background_app(self.background_time)
+            return self.driver.background_app(self.desired_caps.get('background_time'))
 
     def set_network_connection(self, conn_type=0):
         conn = {

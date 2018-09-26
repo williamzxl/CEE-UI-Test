@@ -9,9 +9,9 @@ class HomeWork(AllInterface, StudyCenter, AllPage):
     pass
 
 
-def short_conv(home_work, k0, k1, click_result):
+def short_conv(home_work, headers, k0, k1, click_result):
     short_conv = HomeWork()
-    all_answers = short_conv.get_all_short_conv_answer(k0, k1)
+    all_answers = short_conv.get_all_short_conv_answer(headers, k0, k1)
     print("Click_result,", click_result)
     sleep(10)
     if int(click_result) == 2 or int(click_result) == 4:

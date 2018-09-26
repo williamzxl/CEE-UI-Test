@@ -8,9 +8,9 @@ class HomeWork(AllInterface, StudyCenter, AllPage):
     pass
 
 
-def word_listening(home_work, k0, k1, click_result):
+def word_listening(home_work, headers, k0, k1, click_result):
     word_dict = HomeWork()
-    word_answers = word_dict.get_all_dict_answer(k0, k1)
+    word_answers = word_dict.get_all_dict_answer(headers, k0, k1)
     print("Click Result", click_result)
     if int(click_result) == 2:
         home_work.click_finish_button()

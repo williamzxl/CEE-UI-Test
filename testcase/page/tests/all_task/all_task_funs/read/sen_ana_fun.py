@@ -1,20 +1,22 @@
 from time import sleep
-from testcase.page.learn_center.all_class import AllPage
-from testcase.page.study_center.study_center_main_page import StudyCenter
+# from testcase.page.learn_center.all_class import AllPage
+# from testcase.page.study_center.study_center_main_page import StudyCenter
 from testcase.interface.all_interface import AllInterface
 
 
-class HomeWork(AllInterface, StudyCenter, AllPage):
+class HomeWork(AllInterface):
     pass
 
 
-def sen_ana(home_work, k0, k1, click_result):
+def sen_ana(home_work, headers, k0, k1, click_result):
+    print("Begin sen_ana")
     sen_ana = HomeWork()
-    answers, answers_choice = sen_ana.get_all_sen_analysis_answer(k0, k1)
+    print("Begin sen_ana2")
+    answers, answers_choice = sen_ana.get_all_sen_analysis_answer(headers, k0, k1)
     print("answer", answers, "answer_choice", answers_choice)
     # click_result = home_work.click_one_list(home_work, g)
     sleep(10)
-    print(click_result)
+    print("click_result", click_result)
     if int(click_result) == 4:
         home_work.click_sen_ana_finish_button()
         home_work.click_back_btn()

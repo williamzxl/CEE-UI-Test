@@ -9,10 +9,10 @@ class HomeWork(AllInterface, StudyCenter, AllPage):
     pass
 
 
-def zhenti_xiezuo(home_work, k0, k1, click_result):
+def zhenti_xiezuo(home_work, desired_caps, headers, k0, k1, click_result):
     try:
         zhenti_xiezuo = HomeWork()
-        all_answers = zhenti_xiezuo.get_all_zhenti_xiezuo_answer(k0, k1)
+        all_answers = zhenti_xiezuo.get_all_zhenti_xiezuo_answer(headers, k0, k1)
         zt_right_answer = zhenti_xiezuo.zhenti_xiezuo_right_answer(all_answers)
         zt_wrong_answer = zhenti_xiezuo.zhenti_xiezuo_wrong_answer(all_answers)
         print("zt_wrong_answer", zt_right_answer, zt_wrong_answer)
@@ -32,7 +32,7 @@ def zhenti_xiezuo(home_work, k0, k1, click_result):
             if "暂存" not in home_work.page_source():
                 w, h = home_work.getSize()
                 home_work.tapEle(w * 0.5, h - 90, w * 0.5, h - 92, 50)
-                cmd2 = 'adb shell input tap {} {}'.format(w * 0.5, h - 90)
+                cmd2 = 'adb -s {} shell input tap {} {}'.format(desired_caps.get('deviceName'), w * 0.5, h - 90)
                 os.system(cmd2)
         home_work.fill_zhenti_xiezuo_answer(zt_right_answer)
         home_work.click_zhenti_xiezuo_zancun_btn()
@@ -62,7 +62,7 @@ def zhenti_xiezuo(home_work, k0, k1, click_result):
             if "暂存" not in home_work.page_source():
                 w, h = home_work.getSize()
                 home_work.tapEle(w * 0.5, h - 90, w * 0.5, h - 92, 50)
-                cmd2 = 'adb shell input tap {} {}'.format(w * 0.5, h - 90)
+                cmd2 = 'adb -s {} shell input tap {} {}'.format(desired_caps.get('deviceName'), w * 0.5, h - 90)
                 os.system(cmd2)
         wrong_answers = "a " * 80
         home_work.fill_zhenti_xiezuo_answer(wrong_answers)
